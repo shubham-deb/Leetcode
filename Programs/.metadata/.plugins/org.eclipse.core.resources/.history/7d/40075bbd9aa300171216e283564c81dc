@@ -1,0 +1,13 @@
+
+public class Reverse_String {
+
+	private String reverse(String s){
+		String r="";
+		return r;
+	}
+	
+	public static void main(String[] args) {
+		String input = "shubham";
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class Number_Of_1_bits {
+
+    public int hammingWeight(int n) {
+        
+    }
+	
+	public static void main(String[] args) {
+		Number_Of_1_bits obj = new Number_Of_1_bits();
+		System.out.println(obj.hammingWeight(122));
+
+	}
+
+}

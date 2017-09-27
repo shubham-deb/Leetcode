@@ -1,0 +1,24 @@
+
+public class Reverse_String {
+
+	private String reverse(String s){
+		String r="";
+		if (s==null | s=="") return s;
+		else if(s.length()==1) return s;
+		else{
+			char[] charray = s.toCharArray();
+			for(char ch:){
+				
+			}
+		}
+		return r;
+	}
+	
+	public static void main(String[] args) {
+		String input = "shubham";
+		Reverse_String obj = new Reverse_String();
+		String reverse = obj.reverse(input);
+		System.out.println(" "+reverse);
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class Reverse_String {
+
+	private String reverse(String s){
+		String r="";
+		return r;
+	}
+	
+	public static void main(String[] args) {
+		String input = "shubham";
+		Reverse_String obj = new Reverse_String();
+		String reverse = obj.reverse(input);
+		System.out.println(" "+reverse);
+	}
+
+}
