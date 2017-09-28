@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+
+public class pascal_triangle {
+
+    public ArrayList<ArrayList<Integer>> generate(int numRows) {
+    	ArrayList<ArrayList<Integer>> row = new ArrayList<ArrayList<Integer>>();
+    	ArrayList<Integer> column = new ArrayList<Integer>();
+    	for(int i=0;i<numRows;i++){
+    		
+    	}
+    	return row;
+    }
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int numRows = 5;
+		pascal_triangle obj=  new pascal_triangle();
+		System.out.println(obj.generate(numRows));
+	}
+
+}

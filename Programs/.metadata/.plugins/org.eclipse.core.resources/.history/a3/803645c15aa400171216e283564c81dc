@@ -1,0 +1,21 @@
+//class TreeNode{
+//	int val;
+//	TreeNode left;
+//	TreeNode right;
+//	
+//	TreeNode(int x){
+//		this.val  = x;
+//	}
+//}
+//
+//public int minDepth(TreeNode root) {
+//    
+//}
+
+public class min_depth {
+	public static void main(String[] args) {
+		TreeNode tree = new TreeNode(1);
+		tree.left = new TreeNode(2);
+
+	}
+}
