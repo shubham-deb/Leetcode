@@ -1,0 +1,6 @@
+
+public class set_mismatch {
+	public static void main(String[] args) {
+		int[] nums = {2,5,4,3,10,9,1,1,6,7};
+	}
+}

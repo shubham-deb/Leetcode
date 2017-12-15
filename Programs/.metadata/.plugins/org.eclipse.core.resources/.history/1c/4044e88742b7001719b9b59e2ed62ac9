@@ -1,0 +1,14 @@
+import java.util.HashMap;
+
+public class set_mismatch {
+    public static int[] findErrorNums(int[] nums) {
+        int[] output = new int[2];
+        HsshMap<Integer,Integer> hmap = new HashMap<Integer,Integer>();
+        return output;
+    }
+	
+	public static void main(String[] args) {
+		int[] nums = {2,5,4,3,10,9,1,1,6,7};
+		System.out.println(findErrorNums(nums));
+	}
+}

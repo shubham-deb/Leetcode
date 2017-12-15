@@ -1,0 +1,19 @@
+import java.util.Set;
+import java.util.TreeSet;
+
+public class thirdMax {
+
+    public static int ThirdMax(int[] nums) {
+        int thirdMax = 0;
+        Set<Integer> numbers = new TreeSet<Integer>();
+        for(int n:nums)
+        	numbers.add(n);
+        return thirdMax;
+    }
+	
+	public static void main(String[] args) {
+		int[] nums = {2,2,3,1};
+		System.out.println(ThirdMax(nums));
+	}
+
+}

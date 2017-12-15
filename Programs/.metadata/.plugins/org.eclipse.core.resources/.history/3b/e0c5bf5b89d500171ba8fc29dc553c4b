@@ -1,0 +1,12 @@
+
+public class mergeSortedLL {
+
+	public static void main(String[] args) {
+		ListNode ll = new ListNode(1);
+		ll.next = new ListNode(3);
+		ll.next.next = new ListNode(6);
+		ll.next.next.next = new ListNode(12);
+
+	}
+
+}

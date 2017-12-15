@@ -6,7 +6,6 @@ public class excelSheet_column_number {
         
         if(s==null || s.length()==0) return stringToNumber;
 
-        
         for(int i=0;i<s.length();i++){
         	stringToNumber = stringToNumber * 26 + (s.charAt(i) - 'A' + 1);
         }

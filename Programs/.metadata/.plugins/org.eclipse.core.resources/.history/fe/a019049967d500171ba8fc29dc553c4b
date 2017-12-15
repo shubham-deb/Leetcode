@@ -1,0 +1,28 @@
+import java.util.Iterator;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class thirdMax {
+
+    public static int ThirdMax(int[] nums) {
+        int thirdMax = 0;
+        Set<Integer> numbers = new TreeSet<Integer>();
+        for(int n:nums)
+        	numbers.add(n);
+        int count = 0;
+        for(Iterator<Integer> itr=numbers.iterator();itr.hasNext();){
+        	if(count==2)
+        		return (Integer)itr.next();
+        	else if(count>2)
+        		return -1;
+        	count++;
+        }
+        return thirdMax;
+    }
+	
+	public static void main(String[] args) {
+		int[] nums = {2,2,3,1};
+		System.out.println(ThirdMax(nums));
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class mergeSortedLL {
+
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode newSortedll = new ListNode();
+    }
+	
+	public static void main(String[] args) {
+		
+		ListNode ll = new ListNode(1);
+		ll.next = new ListNode(3);
+		ll.next.next = new ListNode(6);
+		ll.next.next.next = new ListNode(12);
+		
+		ListNode ll2 = new ListNode(4);
+		ll2.next= new ListNode(7);
+		ll2.next.next = new ListNode(8);
+		ll2.next.next.next = new ListNode(11);
+	}
+
+}
